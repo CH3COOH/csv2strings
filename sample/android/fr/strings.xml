@@ -1,0 +1,37 @@
+<!-- Generate by csv2strings -->
+
+<resources>
+
+    <!-- app info -->
+    <string name="BundleDisplayName">AppName</string>
+
+    <!-- format -->
+    <string name="settings_copy_right" formatted="true">Copyright ©︎ ch3cooh.jp All Rights Reserved.\nVersion %s(%s)</string>
+
+    <!-- common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="close">Fermer</string>
+    <string name="save">Save</string>
+    <string name="delete">Supprimer</string>
+    <string name="done">Fait</string>
+    <string name="edit">Éditer</string>
+    <string name="error">Erreur</string>
+    <string name="mail_address">Courriel</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirmation_code">Code de vérification</string>
+    <string name="nickname">Nom d’utilisateur</string>
+    <string name="prev">Précédente</string>
+    <string name="next">Prochain</string>
+    <string name="add">Ajouter</string>
+    <string name="select">Sélectionner</string>
+    <string name="update">Mettre à jour</string>
+    <string name="open">Ouvrir</string>
+    <string name="download">Téléchargements</string>
+    <string name="login">Se connecter</string>
+    <string name="logout">Déconnexion</string>
+    <string name="register">S'apos;inscrire</string>
+    <string name="on">Activé</string>
+    <string name="off">Désactivé</string>
+    <string name="skip">Skip</string>
+</resources>

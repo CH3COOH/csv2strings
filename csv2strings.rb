@@ -1,4 +1,6 @@
 require 'csv'
+require 'fileutils'
+
 
 class CSVProcess
   def self.run(input_file_path, output_dir_path)
@@ -93,7 +95,7 @@ end
 
 def self.output(dir_path, header, text, os, file_name)
   path = File.join(dir_path, os, header)
-  Dir.mkdir(path) unless Dir.exist?(path)
+  FileUtils.mkdir_p(path)
   
   file_path = File.join(path, file_name)
   File.write(file_path, text)

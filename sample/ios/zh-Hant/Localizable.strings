@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  zh-Hant
+  
+  Generate by csv2strings
+*/
+
+
+// MARK: - app info
+"BundleDisplayName" = "AppName";
+
+// MARK: - format
+"settings_copy_right" = "Copyright ©︎ ch3cooh.jp All Rights Reserved.\nVersion %@(%@)";
+
+// MARK: - common
+"ok" = "確認";
+"cancel" = "取消";
+"close" = "關閉";
+"save" = "保存";
+"delete" = "刪除";
+"done" = "完成";
+"edit" = "編輯";
+"error" = "錯誤";
+"mail_address" = "電子郵件";
+"password" = "密碼";
+"confirmation_code" = "驗證代碼";
+"nickname" = "使用者名稱";
+"prev" = "上一個";
+"next" = "下一個";
+"add" = "添加";
+"select" = "選擇";
+"update" = "更新";
+"open" = "開啟";
+"download" = "下載";
+"login" = "登入";
+"logout" = "登出";
+"register" = "注冊";
+"on" = "開啟";
+"off" = "關閉";
+"skip" = "Skip";

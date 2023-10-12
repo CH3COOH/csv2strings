@@ -1,0 +1,37 @@
+<!-- Generate by csv2strings -->
+
+<resources>
+
+    <!-- app info -->
+    <string name="BundleDisplayName">AppName</string>
+
+    <!-- format -->
+    <string name="settings_copy_right" formatted="true">Copyright ©︎ ch3cooh.jp All Rights Reserved.\nVersion %s(%s)</string>
+
+    <!-- common -->
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="close">閉じる</string>
+    <string name="save">保存</string>
+    <string name="delete">削除</string>
+    <string name="done">完了</string>
+    <string name="edit">編集</string>
+    <string name="error">エラー</string>
+    <string name="mail_address">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="confirmation_code">確認コード</string>
+    <string name="nickname">ユーザー名</string>
+    <string name="prev">戻る</string>
+    <string name="next">次へ</string>
+    <string name="add">追加</string>
+    <string name="select">選択</string>
+    <string name="update">更新</string>
+    <string name="open">開く</string>
+    <string name="download">ダウンロード</string>
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="register">登録</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="skip">あとで</string>
+</resources>

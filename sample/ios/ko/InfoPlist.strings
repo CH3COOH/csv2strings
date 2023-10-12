@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  ko
+  
+  Generate by csv2strings
+*/
+
+CFBundleDisplayName = "AppName";
