@@ -99,17 +99,17 @@ class CSVProcess
         next if id.nil? || id.empty?
         
         key = case id
-      when "BundleDisplayName" then "CFBundleDisplayName"
-      when "PhotoLibraryUsageDescription" then "NSPhotoLibraryUsageDescription"
-      when "PhotoLibraryAddUsageDescription" then "NSPhotoLibraryAddUsageDescription"
-      when "CameraUsageDescription" then "NSCameraUsageDescription"
-      when "UserTrackingUsageDescription" then "NSUserTrackingUsageDescription"
-      when "LocationAlwaysAndWhenInUseUsageDescription" then "NSLocationAlwaysAndWhenInUseUsageDescription"
-      when "LocationWhenInUseUsageDescription" then "NSLocationWhenInUseUsageDescription"
-      when "FaceIDUsageDescription" then "NSFaceIDUsageDescription"
-        # Add other cases...
-      else
-        next
+        when "BundleDisplayName" then "CFBundleDisplayName"
+        when "PhotoLibraryUsageDescription" then "NSPhotoLibraryUsageDescription"
+        when "PhotoLibraryAddUsageDescription" then "NSPhotoLibraryAddUsageDescription"
+        when "CameraUsageDescription" then "NSCameraUsageDescription"
+        when "UserTrackingUsageDescription" then "NSUserTrackingUsageDescription"
+        when "LocationAlwaysAndWhenInUseUsageDescription" then "NSLocationAlwaysAndWhenInUseUsageDescription"
+        when "LocationWhenInUseUsageDescription" then "NSLocationWhenInUseUsageDescription"
+        when "FaceIDUsageDescription" then "NSFaceIDUsageDescription"
+          # Add other cases...
+        else
+          next
       end
       
       value = row[header].nil? ? "{{Undefined: #{id}}}" : row[header].gsub("\"", "").strip
