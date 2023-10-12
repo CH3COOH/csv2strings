@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  de
+  
+  Generate by csv2strings
+*/
+
+
+// MARK: - app info
+"BundleDisplayName" = "AppName";
+
+// MARK: - format
+"settings_copy_right" = "Copyright ©︎ ch3cooh.jp All Rights Reserved.\nVersion %@(%@)";
+
+// MARK: - common
+"ok" = "OK";
+"cancel" = "Abbrechen";
+"close" = "Schließen";
+"save" = "Speichern";
+"delete" = "Löschen";
+"done" = "Fertig";
+"edit" = "Bearbeiten";
+"error" = "Fehler";
+"mail_address" = "Email";
+"password" = "Passwort";
+"confirmation_code" = "Bestätigungscode";
+"nickname" = "Username";
+"prev" = "Zurück";
+"next" = "Weiter";
+"add" = "Hinzufügen";
+"select" = "Auswählen";
+"update" = "Update";
+"open" = "Öffnen";
+"download" = "Downloads";
+"login" = "Login";
+"logout" = "Logout";
+"register" = "Anmelden";
+"on" = "Ein";
+"off" = "Aus";
+"skip" = "Skip";
